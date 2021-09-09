@@ -9,8 +9,15 @@ namespace ExercicioFinalHerancaPolimorfismo
         static void Main(string[] args)
         {
 
-            List<TaxPayer> taxPayers = new List<TaxPayer>();
 
+            // ***** Start ***** //
+
+
+            //Lists//
+            List<TaxPayer> taxPayers = new List<TaxPayer>();
+            //Lists//
+
+            //Inputs//
             Console.Write("Enter the number of tax payers: ");
             int numberTaxPayers = int.Parse(Console.ReadLine());
 
@@ -47,7 +54,10 @@ namespace ExercicioFinalHerancaPolimorfismo
 
 
             }
+            //Inputs//
 
+
+            //Outputs//
             Console.WriteLine();
             Console.WriteLine("TAXES PAID: ");
 
@@ -55,6 +65,11 @@ namespace ExercicioFinalHerancaPolimorfismo
             {
                 Console.WriteLine(t);
             }
+            //Outputs//
+
+
+            // ***** The end ***** //
+
 
         }
     }
